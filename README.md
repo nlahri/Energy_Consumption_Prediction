@@ -1,10 +1,13 @@
 # Energy_Consumption_Prediction
 
 This project's objective is to utilize time series forecasting to predict the hourly energy consumption for a city in Morocco called Tétouan.
+Data: Using historical time series data  on power and exogenous variables like Temperature, Humidity, Wind Speed etc. 
+Models: Tree-based models Light GBM
+Library: skforecast
 
 ## **Dateset:** 
 
-The dataset we are using is related to the power consumption of three different distribution networks in Tétouan, located in northern Morocco. The power consumption data for this project is collected and provided by Amendis, a public service operator, through their Supervisory Control and Data Acquisition System (SCADA). The distribution network in Tétouan is powered by three zone stations: Quads, Smir, and Boussafou. Each of these stations supplies power to different areas of the city, creating three distinct target variables. The dataset comprises 52,416 energy consumption observations recorded in 10-minute intervals, spanning from January 1st, 2017, to December 30th, 2017. We focused on one distribution network for our analysis, choosing the one with the highest consumption to align with the area coverage.
+The dataset we use is related to the power consumption of three distribution networks in Tétouan, located in northern Morocco. The power consumption data for this project is collected and provided by Amendis, a public service operator, through their Supervisory Control and Data Acquisition System (SCADA). The distribution network in Tétouan is powered by three zone stations: Quads, Smir, and Boussafou. Each of these stations supplies power to different areas of the city, creating three distinct target variables. The dataset comprises 52,416 energy consumption observations recorded in 10-minute intervals, spanning from January 1st, 2017, to December 30th, 2017. We focused on one distribution network for our analysis, choosing the one with the highest consumption to align with the area coverage.
 
 Power Consumption of Tetouan City - UCI Machine Learning Repository 
 https://archive.ics.uci.edu/dataset/849/power+consumption+of+tetouan+city
